@@ -1,0 +1,72 @@
+body{
+    background-image: url(https://st2.depositphotos.com/1021722/7053/i/450/depositphotos_70531635-stock-photo-art-spring-flowers-frame-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:2500px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-family:cursive;
+    font-weight: 600px;
+    font-size:xx-large;
+    color: #e11c6b;
+    font-style: normal;
+   
+}
+.esas{
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url(https://i.pinimg.com/474x/c8/46/c3/c846c31b3c7c82fb0e0bd812fb2d5707.jpg);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.input{
+  background-color: aliceblue;
+  width: 70%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+ 
+}
+#in_1{
+  width: 70%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+button{
+  padding: 10px 20px;
+    background-color: #e89ec5;
+    color: rgb(10, 10, 10);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #e13a7d;
+}
+ul{
+    display: none;
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+}
